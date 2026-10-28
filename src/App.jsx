@@ -796,33 +796,6 @@ useEffect(() => {
       {project.description}
     </p>
   </a>
-
-  {/* CASE STUDY & PROTOTYPE LINKS */}
-  {(project.caseStudy || project.prototype) && (
-    <div className="work-card-actions">
-      {project.caseStudy && (
-        <a
-          href={project.caseStudy}
-          target="_blank"
-          rel="noreferrer"
-          className="work-card-action"
-        >
-          View Case Study ↗
-        </a>
-      )}
-
-      {project.prototype && (
-        <a
-          href={project.prototype}
-          target="_blank"
-          rel="noreferrer"
-          className="work-card-action"
-        >
-          View Prototype ↗
-        </a>
-      )}
-    </div>
-  )}
 </div>
         </motion.article>
       ))}
