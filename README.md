@@ -4,4 +4,4 @@ Personal portfolio showcasing my work in UI/UX design, graphic design, and web d
 
 Built with React, Vite, and CSS.
 
-[Live Portfolio](https://amogh-portfolio.vercel.app/)
+[Live Portfolio](https://amogh-portfolio-lime.vercel.app/)
